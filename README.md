@@ -28,8 +28,8 @@
 ```
 
 #### Les roles
-##### Nous avons 3 types de rôle: Admin, Authenticated, Public
-##### Créer ces rôles dans strapi s'ils ne sont pas déja crées.
+###### Nous avons 3 types de rôle: Admin, Authenticated, Public
+###### Créer ces rôles dans strapi s'ils ne sont pas déja créés.
 
 ##### Cliquez sur 'Roles & Permissions' dans le menu à gauche et autoriser les actions suivantes:
 
