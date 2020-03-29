@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_menu_plat_menus",
+  "info": {
+    "name": "menu",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "plats": {
+      "collection": "plats"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "commandes",
+  "info": {
+    "name": "commandes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "plat": {
+      "model": "plats"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "date_commande": {
+      "type": "string"
+    }
+  }
+}

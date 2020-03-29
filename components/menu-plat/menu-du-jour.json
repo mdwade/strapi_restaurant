@@ -1,0 +1,10 @@
+{
+  "connection": "default",
+  "collectionName": "components_menu_plat_menu_du_jours",
+  "info": {
+    "name": "menu_du_jour",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {}
+}
