@@ -37,30 +37,30 @@
     - Dans <b>application</b>:
         - autoriser ```find``` dans les collections Menu et Plats
     - Dans <b>users-permissions</b>:
-        -  ```connect``` et ```register``` dans la collection Auth
-        - ```init``` dans la collection Userpermissions
+        - autoriser ```connect``` et ```register``` dans la collection Auth
+        - autoriser ```init``` dans la collection Userpermissions
         
 * Rôle <b>Authenticated</b>: correspond aux utilisateurs disposant un compte dans l'application.
   - Dans <b>application</b>
-    - ```find``` dans la collection Menu
-    - ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans la collection Commandes
+    - autoriser ```find``` dans la collection Menu
+    - autoriser ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans la collection Commandes
   - Dans <b>Upload</b>
-    - ```upload``` sur la collection upload
+    - autoriser ```upload``` sur la collection upload
   - Dans <b>users-permissions</b>:
-    - ```connect``` et ```register``` dans la collection Auth
-    - ```findone```, ```me``` et ```update``` dans la collectin User
-    - ```init``` dans la collection Userpermissions
+    - autoriser ```connect``` et ```register``` dans la collection Auth
+    - autoriser ```findone```, ```me``` et ```update``` dans la collectin User
+    - autoriser ```init``` dans la collection Userpermissions
     
 * Rôle <b>Admin</b>:
     - Dans <b>application</b>      
-        - ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans les collections Menu et Plats
-        - ```find``` et ```delete``` dans la collection Commandes
+        - autoriser ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans les collections Menu et Plats
+        - autoriser ```find``` et ```delete``` dans la collection Commandes
     - Dans <b>Upload</b>
-        - ```upload``` dans la collection Upload
+        - autoriser ```upload``` dans la collection Upload
     - Dans <b>users-permissions</b>:
-        - ```connect``` dans la collection Auth
-        - ```findone```, ```me``` et ```update``` sur la collection User
-        - ```init``` dans la collection Userpermissions
+        - autoriser ```connect``` dans la collection Auth
+        - autoriser ```findone```, ```me``` et ```update``` sur la collection User
+        - autoriser ```init``` dans la collection Userpermissions
 
 
 ##### Lancer le serveur avec la commande 
