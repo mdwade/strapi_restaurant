@@ -33,7 +33,7 @@
 
 ##### Cliquez sur 'Roles & Permissions' dans le menu à gauche et autoriser les actions suivantes:
 
-* Rôle <b>Public</b>: correspond aux utilisateurs non inscrits.  
+* Rôle <b>Public</b>: correspond aux utilisateurs non inscrits.
     - Dans <b>application</b>:
         - autoriser ```find``` dans les collections Menu et Plats
     - Dans <b>users-permissions</b>:
@@ -41,10 +41,10 @@
         - autoriser ```init``` dans la collection Userpermissions
         
 * Rôle <b>Authenticated</b>: correspond aux utilisateurs disposant un compte dans l'application.
-  - Dans <b>application</b>
+  - Dans <b>application</b>:
     - autoriser ```find``` dans la collection Menu
     - autoriser ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans la collection Commandes
-  - Dans <b>Upload</b>
+  - Dans <b>Upload</b>:
     - autoriser ```upload``` sur la collection upload
   - Dans <b>users-permissions</b>:
     - autoriser ```connect``` et ```register``` dans la collection Auth
@@ -52,10 +52,10 @@
     - autoriser ```init``` dans la collection Userpermissions
     
 * Rôle <b>Admin</b>:
-    - Dans <b>application</b>      
+    - Dans <b>application</b>:
         - autoriser ```create```, ```delete```, ```find```, ```findone``` et ```update``` dans les collections Menu et Plats
         - autoriser ```find``` et ```delete``` dans la collection Commandes
-    - Dans <b>Upload</b>
+    - Dans <b>Upload</b>:
         - autoriser ```upload``` dans la collection Upload
     - Dans <b>users-permissions</b>:
         - autoriser ```connect``` dans la collection Auth
