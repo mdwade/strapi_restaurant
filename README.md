@@ -1,13 +1,6 @@
 # Projet: développement d'une application pour restaurant avec IONIC
 ###### # Cette API sera consommée par l'application app_restaurant
 
-## Etudiant
-```
-- Nom:      Wade
-- Prénom:   Mouhamed Diop
-- Classe:   M2GLSI
-```
-
 #### Télécharger le projet et installer les dépendances avec la commande suivante
 ```
 > npm install
